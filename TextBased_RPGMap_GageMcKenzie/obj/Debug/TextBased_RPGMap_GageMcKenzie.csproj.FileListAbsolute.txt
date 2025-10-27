@@ -1,0 +1,7 @@
+C:\Users\w0526843\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\bin\Debug\TextBased_RPGMap_GageMcKenzie.exe.config
+C:\Users\w0526843\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\bin\Debug\TextBased_RPGMap_GageMcKenzie.exe
+C:\Users\w0526843\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\bin\Debug\TextBased_RPGMap_GageMcKenzie.pdb
+C:\Users\w0526843\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\obj\Debug\TextBased_RPGMap_GageMcKenzie.csproj.AssemblyReference.cache
+C:\Users\w0526843\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\obj\Debug\TextBased_RPGMap_GageMcKenzie.csproj.CoreCompileInputs.cache
+C:\Users\w0526843\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\obj\Debug\TextBased_RPGMap_GageMcKenzie.exe
+C:\Users\w0526843\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\obj\Debug\TextBased_RPGMap_GageMcKenzie.pdb
