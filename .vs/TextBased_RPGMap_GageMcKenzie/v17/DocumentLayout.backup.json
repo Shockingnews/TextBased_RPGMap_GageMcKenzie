@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\w0526843\\TextBased_RPGMap_GageMcKenzie\\",
+  "WorkspaceRootPath": "C:\\Users\\mgc72\\Documents\\unity project\\TextBased_RPGMap_GageMcKenzie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F2BDBE9-EFA9-4B17-8103-5DE20870FDF8}|TextBased_RPGMap_GageMcKenzie\\TextBased_RPGMap_GageMcKenzie.csproj|c:\\users\\w0526843\\textbased_rpgmap_gagemckenzie\\textbased_rpgmap_gagemckenzie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F2BDBE9-EFA9-4B17-8103-5DE20870FDF8}|TextBased_RPGMap_GageMcKenzie\\TextBased_RPGMap_GageMcKenzie.csproj|c:\\users\\mgc72\\documents\\unity project\\textbased_rpgmap_gagemckenzie\\textbased_rpgmap_gagemckenzie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F2BDBE9-EFA9-4B17-8103-5DE20870FDF8}|TextBased_RPGMap_GageMcKenzie\\TextBased_RPGMap_GageMcKenzie.csproj|solutionrelative:textbased_rpgmap_gagemckenzie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,12 +17,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -32,23 +28,22 @@
               "DocumentIndex": 1,
               "Title": "Map.cs",
               "DocumentMoniker": "C:\\Users\\w0526843\\Downloads\\Map.cs",
-              "RelativeDocumentMoniker": "..\\Downloads\\Map.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\w0526843\\Downloads\\Map.cs",
               "ToolTip": "C:\\Users\\w0526843\\Downloads\\Map.cs",
-              "RelativeToolTip": "..\\Downloads\\Map.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\w0526843\\Downloads\\Map.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T13:18:58.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-27T13:18:58.831Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\w0526843\\TextBased_RPGMap_GageMcKenzie\\TextBased_RPGMap_GageMcKenzie\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\mgc72\\Documents\\unity project\\TextBased_RPGMap_GageMcKenzie\\TextBased_RPGMap_GageMcKenzie\\Program.cs",
               "RelativeDocumentMoniker": "TextBased_RPGMap_GageMcKenzie\\Program.cs",
-              "ToolTip": "C:\\Users\\w0526843\\TextBased_RPGMap_GageMcKenzie\\TextBased_RPGMap_GageMcKenzie\\Program.cs",
-              "RelativeToolTip": "TextBased_RPGMap_GageMcKenzie\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mgc72\\Documents\\unity project\\TextBased_RPGMap_GageMcKenzie\\TextBased_RPGMap_GageMcKenzie\\Program.cs*",
+              "RelativeToolTip": "TextBased_RPGMap_GageMcKenzie\\Program.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T13:18:31.769Z",
               "EditorCaption": ""

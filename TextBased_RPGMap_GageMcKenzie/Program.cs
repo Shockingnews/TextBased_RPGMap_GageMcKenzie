@@ -31,7 +31,14 @@ namespace TextBased_RPGMap_GageMcKenzie
 
         static void Display()
         {
-            Console.WriteLine(map);
+            for(int i = 0; i < 30; i++)
+            {
+                Console.Write(map[i,0]);
+                for (int j = 0; j < 12; j++)
+                {
+                    Console.WriteLine(map[0,j]);
+                }
+            }
         }
 
         static void Display(int scale)
