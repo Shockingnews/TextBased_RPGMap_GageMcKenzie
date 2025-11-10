@@ -9,10 +9,11 @@ namespace TextBased_RPGMap_GageMcKenzie
 
     internal class Program
     {
-        static int placeHolder = 1;
+        static int placeHolder = 0;
 
         static char[,] map = new char[,] // dimensions defined by following data:
     {
+        {'/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/'},
         {'^','^','^','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`'},
         {'^','^','`','`','`','`','*','*','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','~','~','~','`','`','`'},
         {'^','^','`','`','`','*','*','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','~','~','~','`','`','`','`','`'},
@@ -25,6 +26,7 @@ namespace TextBased_RPGMap_GageMcKenzie
         {'`','`','`','`','`','`','`','~','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`'},
         {'`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`'},
         {'`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`'},
+        {'/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/','/'},
     };
         static void Main(string[] args)
         {
@@ -32,32 +34,111 @@ namespace TextBased_RPGMap_GageMcKenzie
             
         }
 
-        static void Display()
+        static void Display(int scale =1)
         {
-            for(int i = 0; i < map.GetLength(0); i++)
-            {
+            if (scale == 1) 
+            { 
+                for(int i = 0; i < map.GetLength(0); i++)
+                {
                 
 
-                for (int j = 0; j < map.GetLength(1); j++)
-                {
-                    if (j == 0)
+
+                    for (int j = 0; j < map.GetLength(1); j++)
                     {
-                        Console.SetCursorPosition(0, placeHolder);
-                        placeHolder += 1;
+                        
+
+                        if (j == 0)
+                        {
+                            Console.SetCursorPosition(0, placeHolder);
+                            Console.Write('/');
+                            placeHolder += 1;
+
+                        }
+                        
+
+                        Console.Write(map[i,j]);
+                    
+
+
+                    }
+                    Console.Write('/');
+
+                }
+            }
+            if (scale == 2)
+            {
+                for (int i = 0; i < map.GetLength(0); i++)
+                {
+
+
+
+                    for (int j = 0; j < map.GetLength(1); j++)
+                    {
+                        //if (j == 29)
+                        //{
+                        //    Console.SetCursorPosition(31, placeHolder);
+
+                        //    Console.WriteLine('/');
+
+                        //}
+
+                        if (j == 0)
+                        {
+                            Console.SetCursorPosition(0, placeHolder);
+                            Console.Write('/');
+                            placeHolder += 1;
+
+                        }
+
+                        Console.Write(map[i, j]);
+                        Console.Write(map[i, j]);
+                        Console.Write(map[i, j]);
 
                     }
 
-                    Console.Write(map[i,j]);
-                    
+                }
+            }
+            if (scale == 3)
+            {
+                for (int i = 0; i < map.GetLength(0); i++)
+                {
+
+
+
+                    for (int j = 0; j < map.GetLength(1); j++)
+                    {
+                        //if (j == 29)
+                        //{
+                        //    Console.SetCursorPosition(31, placeHolder);
+
+                        //    Console.WriteLine('/');
+
+                        //}
+
+                        if (j == 0)
+                        {
+                            Console.SetCursorPosition(0, placeHolder);
+                            Console.Write('/');
+                            placeHolder += 1;
+
+                        }
+
+                        Console.Write(map[i, j]);
+                        Console.Write(map[i, j]);
+                        Console.Write(map[i, j]);
+
+
+                    }
 
                 }
-                
+            }
+
+            if (scale > 3)
+            {
+                Console.WriteLine("incorrect scale");
             }
         }
 
-        static void Display(int scale)
-        {
-
-        }
+        
     }
 }
