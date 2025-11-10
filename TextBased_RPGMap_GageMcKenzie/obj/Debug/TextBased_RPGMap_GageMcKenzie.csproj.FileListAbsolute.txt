@@ -13,3 +13,4 @@ C:\Users\mgc72\Documents\unity project\TextBased_RPGMap_GageMcKenzie\TextBased_R
 C:\Users\mgc72\Documents\unity project\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\obj\Debug\TextBased_RPGMap_GageMcKenzie.csproj.CoreCompileInputs.cache
 C:\Users\mgc72\Documents\unity project\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\obj\Debug\TextBased_RPGMap_GageMcKenzie.exe
 C:\Users\mgc72\Documents\unity project\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\obj\Debug\TextBased_RPGMap_GageMcKenzie.pdb
+C:\Users\w0526843\TextBased_RPGMap_GageMcKenzie\TextBased_RPGMap_GageMcKenzie\obj\Debug\TextBased_RPGMap_GageMcKenzie.exe.config
