@@ -9,6 +9,8 @@ namespace TextBased_RPGMap_GageMcKenzie
 
     internal class Program
     {
+        static int placeHolder = 1;
+
         static char[,] map = new char[,] // dimensions defined by following data:
     {
         {'^','^','^','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`','`'},
@@ -27,17 +29,29 @@ namespace TextBased_RPGMap_GageMcKenzie
         static void Main(string[] args)
         {
             Display();
+            
         }
 
         static void Display()
         {
-            for(int i = 0; i < 30; i++)
+            for(int i = 0; i < map.GetLength(0); i++)
             {
-                Console.Write(map[i,0]);
-                for (int j = 0; j < 12; j++)
+                
+
+                for (int j = 0; j < map.GetLength(1); j++)
                 {
-                    Console.WriteLine(map[0,j]);
+                    if (j == 0)
+                    {
+                        Console.SetCursorPosition(0, placeHolder);
+                        placeHolder += 1;
+
+                    }
+
+                    Console.Write(map[i,j]);
+                    
+
                 }
+                
             }
         }
 
